@@ -1,0 +1,64 @@
+body {
+  color: #5a5a5a;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+/*===========================================================
+                    Nav
+===========================================================*/
+.navbar-light {
+  background-color: #563D7C;
+}
+.navbar-light .navbar-brand {
+  color: #a38cc6;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+.navbar-light .navbar-brand:hover {
+  color: #dad0e8;
+}
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+.navbar-light input {
+  border: 1px solid #a38cc6;
+  box-shadow: none;
+}
+.navbar-light .btn-outline-light-purple {
+  color: #a38cc6;
+  background-color: transparent;
+  background-image: none;
+  border-color: #a38cc6;
+}
+.navbar-light .btn-outline-light-purple:hover {
+  color: #ffffff;
+  background-color: #a38cc6;
+  background-image: none;
+  border-color: #a38cc6;
+}
+/*===========================================================
+                    Carousel 
+===========================================================*/
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 35rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 35rem;
+}

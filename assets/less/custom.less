@@ -1,0 +1,85 @@
+@im: !important;
+@purple: #563D7C;
+@w: #ffffff;
+@b: #000000;
+
+
+body {
+	color: #5a5a5a;
+	padding-top: 3rem;
+  	padding-bottom: 3rem;
+}
+
+/*===========================================================
+                    Nav
+===========================================================*/
+
+.navbar-light{
+	background-color: #563D7C;
+}
+
+.navbar-light .navbar-brand {
+	color: lighten(@purple, 30%);
+	font-weight: bold;
+	letter-spacing: 1.5px;
+}
+
+.navbar-light .navbar-brand:hover {
+	color: lighten(@purple, 50%);
+}
+
+.navbar-light .nav-item {
+
+}
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .nav-link:focus, 
+.navbar-light .navbar-nav .nav-link:hover {
+	color: @w;
+}
+
+.navbar-light input {
+	border: 1px solid lighten(@purple, 30%);
+	box-shadow: none;
+}
+
+.navbar-light .btn-outline-light-purple {
+	color: lighten(@purple, 30%);
+	background-color: transparent;
+	background-image: none;
+	border-color: lighten(@purple, 30%);
+}
+
+.navbar-light .btn-outline-light-purple:hover {
+	color: @w;
+	background-color: lighten(@purple, 30%);
+	background-image: none;
+	border-color: lighten(@purple, 30%);
+}
+
+/*===========================================================
+                    Carousel 
+===========================================================*/
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 35rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 35rem;
+}
