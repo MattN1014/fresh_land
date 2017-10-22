@@ -7,7 +7,19 @@ body {
                     Nav
 ===========================================================*/
 .navbar-light {
+  background-color: rgba(86, 61, 124, 0.7);
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.navbar-light.padded {
   background-color: #563D7C;
+  padding: 20px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 .navbar-light .navbar-brand {
   color: #a38cc6;
