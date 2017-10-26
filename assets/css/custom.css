@@ -110,10 +110,26 @@ p {
 #feat {
   padding: 25px 0;
 }
+.feat-inner .img-wrapper {
+  margin: 15px auto;
+}
 .feat-inner .img-wrapper .fa {
   background-color: #6e4e9e;
   border-radius: 100%;
   color: #ffffff;
   font-size: 75px;
   padding: 30px;
+  vertical-align: middle;
+}
+.feat-inner .feat-content {
+  margin: 10px auto;
+}
+.feat-inner .feat-content h2 {
+  color: #a38cc6;
+  padding: 10px 0;
+  text-transform: capitalize;
+}
+.feat-inner .feat-content p {
+  letter-spacing: 0.7px;
+  line-height: 1.8em;
 }
