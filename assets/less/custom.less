@@ -10,11 +10,27 @@ body {
   	padding-bottom: 3rem;
 }
 
+/*===========================================================
+                    Typography
+===========================================================*/
+.sect-heading {
+	color: lighten(@purple, 10%);
+	font-weight: bold;
+	letter-spacing: 2.5px;
+	margin: 10px auto 20px auto;
+	text-align: center;
+	text-transform: capitalize;
+}
+
 p {
 	color: lighten(@b, 60%);
 	font-size: 16px;
 	letter-spacing: 1.5px;
 }
+
+/*===========================================================
+                    Buttons
+===========================================================*/
 
 .btn-purple {
 	background-color: @purple;
@@ -28,10 +44,6 @@ p {
 	background-color: darken(@purple, 15%);
 	border-color: darken(@purple, 15%);
 	color: @w;
-}
-
-p {
-	color: #999999;
 }
 
 /*===========================================================
@@ -104,10 +116,6 @@ p {
                     Carousel 
 ===========================================================*/
 
-/* Carousel base class */
-.carousel {
-  margin-bottom: 4rem;
-}
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   bottom: 3rem;
@@ -144,6 +152,48 @@ p {
 	padding: 50px 20px;
 }
 
+#ab-img {}
+
+#ab-img img {
+	border: 5px solid @purple;
+	display: block;
+	height: 250px;
+	margin: 5px auto;
+	-webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+	width: auto;
+}
+
+#ab-img img:hover {
+	border: 5px solid lighten(@purple, 15%);
+	-webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+
 /*===========================================================
                     Featured section
 ===========================================================*/
+
+/*===========================================================
+                    Footer
+===========================================================*/
+
+.back-to-top {
+	background: @purple url("../img/up-arrow.png") no-repeat center 43%;
+	border-radius: 50%;
+	bottom: 20px;
+	display: none;
+	height: 60px;
+	position: fixed;
+	right: 20px;
+	text-indent: -9999px;
+	width: 60px;
+	z-index: 999;
+}
+
+.back-to-top .fa {
+	color: @purple;
+	font-size: 36px;
+}
