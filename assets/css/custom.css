@@ -1,7 +1,6 @@
 body {
   color: #5a5a5a;
   padding-top: 3rem;
-  padding-bottom: 3rem;
 }
 /*===========================================================
                     Typography
@@ -143,10 +142,18 @@ p {
 /*===========================================================
                     Footer
 ===========================================================*/
+footer {
+  background-color: #6e4e9e;
+  color: #ffffff;
+  padding: 20px 0;
+}
+/*===========================================================
+                    Back to top button
+===========================================================*/
 .back-to-top {
-  background: #6e4e9e url("../img/up-arrow.png") no-repeat center 43%;
+  background: rgba(163, 140, 198, 0.8) url("../img/up-arrow.png") no-repeat center 43%;
   border-radius: 50%;
-  bottom: 20px;
+  bottom: 60px;
   display: none;
   height: 60px;
   position: fixed;
