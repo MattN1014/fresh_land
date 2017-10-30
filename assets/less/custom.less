@@ -3,11 +3,40 @@
 @w: #ffffff;
 @b: #000000;
 
+/*===========================================================
+                    General
+===========================================================*/
 
 body {
 	color: #5a5a5a;
+	overflow-x: hidden;
 	padding-top: 3rem;
+	position: relative;
 }
+
+section {
+	overflow: hidden;
+	padding: 150px 0;
+}
+
+section header {
+	margin-bottom: 70px;
+}
+
+a {
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+p {
+	line-height: 1.7rem;
+}
+
+button {
+	cursor: pointer;
+}
+
+
 
 /*===========================================================
                     Typography
@@ -162,7 +191,6 @@ p {
 
 #about {
 	background-color: #f5f5f5;
-	padding: 50px 20px;
 }
 
 #ab-img {}
@@ -190,11 +218,76 @@ p {
 ===========================================================*/
 
 #feat {
-	padding: 60px 0;
+
 }
 
-#feat .feat-inner {
-	padding: 20px 0;
+#feat .row {
+	margin-bottom: 40px;
+}
+
+#feat .row:last-of-time {
+	margin-bottom: 0;
+}
+
+#feat .text p {
+	font-size: 0.85rem;
+	line-height: 1.6rem;
+	margin: 20px 0 25px;
+}
+
+@media (max-width: 1199px){
+	#feat .text {
+		margin-bottom: 50px;
+	}
+}
+
+/*===========================================================
+                    Additional Features section
+===========================================================*/
+
+#add-feat {
+	background-color: @purple;
+	color: @w;
+}
+
+#add-feat h3,
+#add-feat h4,
+#add-feat p {
+	color: inherit;
+}
+
+#add-feat h3 {
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+
+#add-feat .lead {
+	font-size: 1.2rem;
+	font-weight: 200;
+	line-height: 1.58em;
+}
+
+#add-feat .icon {
+	font-size: 3rem;
+	margin-bottom: 25px;
+}
+
+#add-feat .item {
+	padding: 50px 30px;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+	cursor: default;
+}
+
+#add-feat .item:hover {
+	background: lighten(@purple, 5%);
+	-webkit-box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
+  	box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
+}
+
+#add-feat .item p {
+	font-weight: 450;
+	margin: 15px 0;
 }
 
 /*===========================================================
