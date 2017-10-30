@@ -45,6 +45,20 @@ p {
 	color: @w;
 }
 
+.btn-purple-outline {
+	background-color: transparent;
+	border-color: @purple;
+	color: @purple;
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+
+.btn-purple-outline:hover {
+	background-color: @purple;
+	border-color: lighten(@purple, 15%);
+	color: @w;
+}
+
 /*===========================================================
                     Nav
 ===========================================================*/
@@ -175,6 +189,14 @@ p {
                     Featured section
 ===========================================================*/
 
+#feat {
+	padding: 60px 0;
+}
+
+#feat .feat-inner {
+	padding: 20px 0;
+}
+
 /*===========================================================
                     Footer
 ===========================================================*/
@@ -183,6 +205,22 @@ footer {
 	background-color: @purple;
 	color: @w;
 	padding: 20px 0;
+}
+
+footer p {
+	color: @w;
+	line-height: 2em;
+	margin: 0;
+	padding: 10px 0;
+	vertical-align: middle;
+}
+
+footer a {
+	color: @w;
+}
+
+footer a:hover {
+	color: @w;
 }
 
 /*===========================================================

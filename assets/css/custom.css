@@ -33,6 +33,18 @@ p {
   border-color: #4a356b;
   color: #ffffff;
 }
+.btn-purple-outline {
+  background-color: transparent;
+  border-color: #6e4e9e;
+  color: #6e4e9e;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.btn-purple-outline:hover {
+  background-color: #6e4e9e;
+  border-color: #967bbe;
+  color: #ffffff;
+}
 /*===========================================================
                     Nav
 ===========================================================*/
@@ -139,6 +151,12 @@ p {
 /*===========================================================
                     Featured section
 ===========================================================*/
+#feat {
+  padding: 60px 0;
+}
+#feat .feat-inner {
+  padding: 20px 0;
+}
 /*===========================================================
                     Footer
 ===========================================================*/
@@ -146,6 +164,19 @@ footer {
   background-color: #6e4e9e;
   color: #ffffff;
   padding: 20px 0;
+}
+footer p {
+  color: #ffffff;
+  line-height: 2em;
+  margin: 0;
+  padding: 10px 0;
+  vertical-align: middle;
+}
+footer a {
+  color: #ffffff;
+}
+footer a:hover {
+  color: #ffffff;
 }
 /*===========================================================
                     Back to top button
