@@ -351,6 +351,99 @@ p {
 	padding: 70px 40px;
 }
 
+#contact .form-holder .form-group {
+	border: none;
+	border-bottom: 1px solid lighten(@purple, 10%);
+}
+
+#contact .form-holder .form-group:last-of-time  {
+	border: none;
+}
+
+#contact .form-holder .input-group,
+#contact .form-holder .input-group-addon,
+#contact .form-holder input,
+#contact .form-holder textarea {
+	border: none;
+	box-shadow: none;
+}
+
+#contact .form-holder .input-group-addon {
+	background-color: lighten(@purple, 10%);
+	width: 40px;
+}
+
+#contact .form-holder .input-group-addon .fa {
+	color: @w;
+}
+
+#contact #contact-det {
+	margin-top: 15px;
+}
+
+#contact #contact-det ul {
+	list-style-type: none;
+	padding: 15px 25px 0 25px;
+}
+
+#contact-det ul > li {
+	margin-bottom: 5.5px;
+}
+
+#contact-det ul > li > a {
+	color: @purple;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+#contact-det ul > li > a:hover {
+	color: lighten(@purple, 10%);
+	text-decoration: none;
+}
+
+#contact-det .social-links {
+	color: @w;
+	letter-spacing: 1px;
+	margin: 10px auto;
+}
+
+#contact-det .social-links ul > li {
+	background-color: @purple;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    height: 35px;
+    margin-right: 5px;
+    position: relative;
+    vertical-align: middle;
+    width: 35px;
+    -moz-transition: -moz-transform ease 0.6s;
+    -webkit-transition: -o-transform ease 0.6s;
+    -ms-transition: -ms-transform ease 0.6s;
+    transition: transform ease 0.6s;
+}
+
+#contact-det .social-links ul > li a {
+    color: @w;
+    font-size: 20px;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+#contact-det .social-links ul > li > a > .fa {
+	left: 9px;
+    position: absolute;
+    right: 11px;
+    top: 7px;
+}
+
+#contact-det .social-links > ul > li.facebook > a > .fa {
+	left: 12px;
+	right: 11px;
+	top: 8px;
+}
+
 /*===========================================================
                     Footer
 ===========================================================*/
